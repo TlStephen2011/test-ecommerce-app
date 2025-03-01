@@ -47,6 +47,6 @@ jobs:
           cd test-ecommerce-infrastructure/k8s/app
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add deployment.yamls
+          git add deployment.yaml
           git commit -m "Update image tag to ${{ github.ref_name }}"
           git push origin HEAD:main
