@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Configuration Repository
         uses: actions/checkout@v4
         with:
-          repository: TlStephen2011/test-ecommerce-app
+          repository: TlStephen2011/test-ecommerce
           token: ${{ secrets.TEST_INFRASTRUCTURE_CONFIG_TOKEN }}
           path: test-ecommerce-infrastructure
 
