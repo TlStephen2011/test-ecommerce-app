@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: TlStephen2011/test-ecommerce
-          token: ${{ secrets.TEST_INFRASTRUCTURE_CONFIG_TOKEN }}
+          token: ${{ secrets.TEST_ECOMMERCE_SECRET }}
           path: test-ecommerce-infrastructure
 
       - name: Update Kubernetes Manifest
